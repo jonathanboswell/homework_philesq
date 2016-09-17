@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/sky.gif");
+  background-size: cover;
+  text-align: center;
+}
+a {
+  color: white;
+}
+h1 {
+  color: #fff;
+  font-size: 150px;
+  font-family: arial;
+  letter-spacing: 5px;
+  text-shadow: 0 0 50px #fff;
+  margin: 200px 0px 0px 0px;
+}
+h2 {
+  font-family: times;
+  letter-spacing: 2px;
+}
+h3 {
+  color: #fff;
+  font-size: 36px;
+  font-family: arial;
+  letter-spacing: 5px;
+  margin: 200px 0px 0px 0px;
+}
+p {
+  font-family: times;
+  letter-spacing: 1px;
+  
+}
+img {
+  margin: 40px 0px 0px 0px;
+}
+ul {
+  padding: 10px;
+}
+li {
+  color: #fff;
+  font-size: 14px;
+  font-family: times;
+  letter-spacing: 5px;
+  display: inline;
+  padding: 0px 150px 0px 150px;
+}
