@@ -2,6 +2,11 @@
 	margin: 20px 0px;
 }
 
+a {
+	color: #f15c22;
+	font-weight: 700;
+}
+
 a:visited {
 	text-decoration: underline;
 }
@@ -29,10 +34,50 @@ nav li a {
 	color: black;
 	font-family: lato, sans-serif;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 18px;
 	list-style: none;
 	padding: 20px 20px;
 	letter-spacing: 1px;
+}
+
+h1 {
+	color: black;
+	font-family: lato, sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+h2 {
+	color: black;
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: .5px;
+	text-align: left;
+}
+
+h6 {
+	color: black;
+	font-family: times, serif;
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-align: right;
+	padding-bottom: 15px;
+}
+
+p {
+	color: black;
+	font-family: lato, sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	padding-bottom: 10px;
+	text-align: left;
+	line-height: 25px;
 }
 
 body {
@@ -47,21 +92,25 @@ img {
 	width: 500px;
 }
 
-#container {
-	position: absolute;
-	top:300px;
-	left:650px;
+#carFire {
+	padding-top: 28px;
 }
 
-#container img:hover {
+#container1 {
+	position: absolute;
+	top:25%;
+	left:35%;
+}
+
+#container1 img:hover {
 	z-index: 3;
 	position: absolute;
 }
 
 #container2 {
-	position:absolute;
-	top:250px;
-	left:400px;
+	position: absolute;
+	top:30%;
+	left:48%;
 }
 
 #container2 img:hover {
@@ -70,9 +119,9 @@ img {
 }
 
 #container3 {
-	position:absolute;
-	top:370px;
-	left:480px;
+	position: absolute;
+	top:45%;
+	left:40%;
 }
 
 #container3 img:hover {
